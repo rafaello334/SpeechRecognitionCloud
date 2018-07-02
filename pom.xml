@@ -47,6 +47,18 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+		
+		<dependency>
+			<groupId>de.sciss</groupId>
+			<artifactId>sphinx4-core</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/net.sf.phat/sphinx4-data -->
+		<dependency>
+			<groupId>net.sf.phat</groupId>
+			<artifactId>sphinx4-data</artifactId>
+			<version>5prealpha</version>
+		</dependency>
 	</dependencies>
 
 	<build>
